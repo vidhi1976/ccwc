@@ -9,21 +9,23 @@ It replicates the functionality of the classic Unix `wc` (word count) command, a
 
 ```bash
 pip install .
+```
 
 ## 🧰 Usage
 
 **Count lines in a file**
 ```bash
 ccwc -l test.txt
-
+```
 **Count words in a file**
 ```bash
 ccwc -w test.txt
-
+```
 **Count characters in a file**
 ```bash
 ccwc -m test.txt
-
+```
 **Count bytes in a file**
 ```bash
 ccwc -c test.txt
+```
